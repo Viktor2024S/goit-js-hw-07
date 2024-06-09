@@ -37,9 +37,10 @@ createButton.addEventListener("click", () => {
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     input.value = "";
-  } else {
-    alert("Please enter a number between 1 and 100.");
   }
+  // else {
+  //   alert("Please enter a number between 1 and 100.");
+  // }
 });
 
 destroyButton.addEventListener("click", () => {
