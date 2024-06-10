@@ -8,7 +8,7 @@ const bodyColor = document.querySelector("body");
 const byttonColor = document.querySelector(".change-color");
 const spanColor = document.querySelector(".color");
 
-changeColorBody = addEventListener("click", () => {
+changeColorBody.addEventListener("click", () => {
   const color = getRandomHexColor();
   bodyColor.style.backgroundColor = color;
   spanColor.textContent = color;
