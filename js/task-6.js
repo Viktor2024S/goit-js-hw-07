@@ -28,7 +28,7 @@ function destroyBoxes() {
   boxesContainer.innerHTML = "";
 }
 
-const input = document.querySelector("#controls input");
+const input = document.querySelector("input");
 const createButton = document.querySelector("[data-create]");
 const destroyButton = document.querySelector("[data-destroy]");
 
