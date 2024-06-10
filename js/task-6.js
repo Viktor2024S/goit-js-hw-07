@@ -38,11 +38,6 @@ createButton.addEventListener("click", () => {
     createBoxes(amount);
     input.value = "";
   }
-  // else {
-  //   alert("Please enter a number between 1 and 100.");
-  // }
 });
 
-destroyButton.addEventListener("click", () => {
-  destroyBoxes();
-});
+destroyButton.addEventListener("click", () => destroyBoxes());
